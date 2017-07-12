@@ -70,7 +70,6 @@ def reverse(text):
     return rev
 
 print reverse("abc")
-'''
 
 def anti_vowel(text):
     text = text.replace('a','')
@@ -88,3 +87,24 @@ def anti_vowel(text):
 
 
 print anti_vowel("Hey You!")
+
+f = open('/data/GATE-2018/FOCUS/file2.txt','w')
+x = (1,2)
+f.write(str(x))
+f.close()
+
+f = open('/data/GATE-2018/FOCUS/file1.txt','r')
+print f.read()
+print '****'
+f.seek(0)
+print f.read()
+f.close()
+'''
+import os
+
+#print os.getcwd()
+#print os.listdir(os.getcwd())
+#print '****************************'
+#print [i for i in os.walk(os.getcwd())]
+print os.stat('/home/data/GATE-2018/FOCUS/.git')
+#print dir(os)
