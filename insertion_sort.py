@@ -25,15 +25,3 @@ Alogrithm:
 
 '''
 
-def insert_sort(array):
-    #step one, iterate through the array
-    count = len(array)
-    while  count != 0:
-        for i in range(1, len(array)):
-            if array[i] < array[i-1]:
-                array[i], array[i-1] = array[i-1], array[i]
-        count -= 1
-    return array
-
-print insert_sort([22,1, 0, 11, 9, 22,9,5,8,22,1,4])
-print insert_sort(alist)
