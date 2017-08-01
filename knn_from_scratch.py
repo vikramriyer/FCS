@@ -57,3 +57,12 @@ for neighbor in neighbors:
 	plt.scatter(neighbor[0],neighbor[1], s=100, color='y')
 plt.scatter(test[0],test[1],s=100, color='r')
 plt.show()
+
+
+# References
+'''
+http://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
+https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+http://dataaspirant.com/2016/12/27/k-nearest-neighbor-algorithm-implementaion-python-scratch/
+sentdex videos 13-19, python for machine learning
+'''
